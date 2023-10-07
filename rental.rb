@@ -5,6 +5,7 @@ class Rental
     @date = date
     @book = book
     @person = person
+
   end
 
   def add_book(book)
