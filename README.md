@@ -112,7 +112,7 @@ No tests here...
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/waelelsafty07/oop-school-library).
+Feel free to check the [issues page](https://github.com/waelelsafty07/oop-school).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
