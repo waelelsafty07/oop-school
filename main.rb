@@ -17,18 +17,41 @@ end
 
 def handle_choice(choice, app)
   case choice
-  when 1 then app.display_books
-  when 2 then app.display_people
-  when 3 then app.add_person
-  when 4 then app.add_book
-  when 5 then app.add_rental
-  when 6 then app.retal_by_id
-  when 7
-    false
+  when 1 then list_all_books(app)
+  when 2 then list_all_people(app)
+  when 3 then create_person(app)
+  when 4 then create_book(app)
+  when 5 then create_rental(app)
+  when 6 then list_rentals_by_id(app)
+  when 7 then return false
   else
     puts "Invalid number\n"
-    true # This branch handles invalid input, so we still return true to stay in the loop.
+    true
   end
+end
+
+def list_all_books(app)
+  app.display_books
+end
+
+def list_all_people(app)
+  app.display_people
+end
+
+def create_person(app)
+  app.add_person
+end
+
+def create_book(app)
+  app.add_book
+end
+
+def create_rental(app)
+  app.add_rental
+end
+
+def list_rentals_by_id(app)
+  app.retal_by_id
 end
 
 def main
