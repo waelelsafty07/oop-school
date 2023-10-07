@@ -24,13 +24,12 @@ def handle_choice(choice, app)
   when 5 then app.add_rental
   when 6 then app.retal_by_id
   when 7
-    return false
+    false
   else
     puts "Invalid number\n"
-    return true  # This branch handles invalid input, so we still return true to stay in the loop.
+    true # This branch handles invalid input, so we still return true to stay in the loop.
   end
 end
-
 
 def main
   app = App.new
@@ -41,4 +40,5 @@ def main
     break unless handle_choice(choice, app)
   end
 end
+
 main
