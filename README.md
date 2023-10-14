@@ -1,108 +1,151 @@
-﻿<a name="readme-top"></a>
-
+﻿
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [🎯 OOP school library<a name="about-project"></a>](#-oop-school-library)
-  - [🛠 Built With <a name="built-with"></a>](#-built-with-)
-    - [Tech Stack <a name="tech-stack"></a>](#tech-stack-)
-    - [Key Features <a name="key-features"></a>](#key-features-)
-  - [💻 Getting Started <a name="getting-started"></a>](#-getting-started-)
+- [📖 SCHOOL LIBRARY ](#-school-library-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
-  - [👥 Authors <a name="authors"></a>](#-authors-)
-  - [🔭 Future Features <a name="future-features"></a>](#-future-features-)
-  - [🤝 Contributing <a name="contributing"></a>](#-contributing-)
-  - [👋 Show your support <a name="support"></a>](#-show-your-support-)
-  - [🔭Acknowledgments <a name="acknowledgements"></a>](#acknowledgments-)
-  - [📝 License <a name="license"></a>](#-license-)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+    - [👤 **Mohamed-Gamaleldin**](#-mohamed-gamaleldin)
+    - [👤 **Wael Elsafty**](#-wael-elsafty)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-<!-- PROJECT DESCRIPTION -->
+<a name="readme-top"></a>
 
-# 🎯 OOP school library<a name="about-project"></a>
 
-As the librarian of OOP University, I've created a user-friendly app to:
 
-- [ ] Add new students or teachers.
-- [ ] Add new books and maintain their records.
-- [ ] Record book borrowing details, including dates.
-- [ ] Easily manage book availability and borrowers.
-- [ ] This organized tool ensures efficient library management for a smooth experience at OOP University.
+# 📖 SCHOOL LIBRARY <a name="about-project"></a>
+
+
+**SCHOOL LIBRARY**
+This is a library management system
 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
 <details>
-  <summary>Ruby</summary>
+<summary>Ruby</summary>
+  <ul>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+  </ul>
 </details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- **Encapsulation**
-- **Abstraction**
-- **Inheritance**
-- **Polymorphism**
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ Book Search: Users can search for books by title, author, genre, or ISBN to find the book they want to reserve.
 
+Book Availability: The app displays the current availability status of each book, indicating whether it's available, checked out, or reserved by others.
 
-
-<!-- GETTING STARTED -->
+Reservation: Users can reserve a book they wish to borrow. When reserving, they should specify the desired pickup date..
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these steps.
+- Laptop
+- Github
+- Git
+- Ruby
+- Linters 
 
 ### Prerequisites
 
-you have to those tools in your local machine.
+In order to run this project you need:
 
-- [ ] Visual Studio Code
+- Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/).
+- Create a repo on your repositores files.
+- Clone or make a copy of this repo on your local machine.
+- Follow GitHub flow.
+- A carefully reading of this README.md is required.
 
 ### Setup
 
-Clone the project.
+Clone this repository to your desired folder:
 
-```bash
-  git clone https://github.com/waelelsafty07/oop-school-library.git
+```sh
+  cd my-folder
+  git clone https://github.com/obibaadoma/school-library.git
 ```
 
-Go to the project directory.
+### Install
 
-```bash
-  cd OOP-school-library
+Install this project with:
+
+```sh
+  bundle install
 ```
 
+### Usage
+
+To run the project, run the following command:
+
+```sh
+  ruby main.rb
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```
+rubocop
+```
+### Deployment
+
+You can deploy this project using: Gitthub pages
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- ### Run tests
-
-```test
-No tests here...
-``` 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Wael Elsafty**
+👤 **Derek Akrasi Konadu**
 
-- GitHub: [@waelelsafty07](https://github.com/waelelsafty07)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/waelelsafty07)
-
+ **GitHub**  | [@githubhandle](https://github.com/obibaadoma)
+**Twitter**: [@twitterhandle](https://twitter.com/obibakwekuadoma)
+**LinkedIn**: [LinkedIn](https://linkedin.com/in/derek-akrasi-konadu)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### 👤 **Mohamed-Gamaleldin**
+
+- GitHub: [@githubhandle](https://github.com/mohamedgamaleldin999999)
+- Twitter: [@twitterhandle](https://twitter.com/Mohamme43086002)
+
+### 👤 **Wael Elsafty**
+
+- GitHub: [@githubhandle](https://github.com/waelelsafty07)
+- Twitter: [@linkedin](https://linkedin.com/in/waelelsafty07)
+
 <!-- FUTURE FEATURES -->
+ [Online-reservations]
+ [User-Interface]
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- **#map Method Support**
-- **#reduce Method Support**
-- **#Sorting Functionality**
+- **[map Method]**
+- **[reduce Method]**
+- **[sort Method]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,30 +155,30 @@ No tests here...
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/waelelsafty07/oop-school-library).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## 👋 Show your support <a name="support"></a>
+## ⭐️ Show your support <a name="support"></a>
 
-Give a ⭐️ if you like this project!
+If you like this project, star the project if you like it
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🔭Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-  I would like to thank Microverse for giving me a wonderful opportunity to work on this project
-  
+I would like to thank my mentor and my cod partners for support
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE. -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed..
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
